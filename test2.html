@@ -55,18 +55,21 @@ nav  a{
             margin: auto;
         }
 
-        .button {
-    width: 150px;  
-    height: 150px;
-    transform: none;
-    transition: transform 0.3s ease; 
+        .btn-success {
+    background-color: #28a745;
+    color: white;
 }
 
-.button:hover {
-    transform: scale(1.2); 
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
 }
-       
+
+.btn-success:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
     </style>
+}
 </head>
 <body>
 <!-- under line -->
@@ -99,9 +102,13 @@ nav  a{
         <img src="image2.png" alt="Img 2">
         <img src="image copy.png" alt="Img 3">
         <img src="image copy 2.png" alt="Img 4">
+
     </div> 
-<!-- botton --><div class="d-grid gap-2 d-md-block">
-  <button class="btn btn-primary" type="button">Button</button>
+    <br></br>
+
+
+    <button type="button" class="btn btn-success">Success</button>
+  
   
 </div>
     </body>
